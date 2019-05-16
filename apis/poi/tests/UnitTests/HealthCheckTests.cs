@@ -11,7 +11,6 @@ namespace UnitTests
         {
             Assert.Equal("Buenos dias amigos!", new Healthcheck().Message);
             Assert.Equal("Wszystko w porządku!", new Healthcheck().Status);
-
         }
     }
 }
